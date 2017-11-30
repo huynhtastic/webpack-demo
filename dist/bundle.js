@@ -17267,7 +17267,7 @@ var transform;
 var options = {"hmr":true}
 options.transform = transform
 // add the styles to the DOM
-var update = __webpack_require__(8)(content, options);
+var update = __webpack_require__(15)(content, options);
 if(content.locals) module.exports = content.locals;
 // Hot Module Replacement
 if(false) {
@@ -17292,7 +17292,7 @@ exports = module.exports = __webpack_require__(7)(undefined);
 
 
 // module
-exports.push([module.i, ".hello {\n  color: red;\n  background: url(" + __webpack_require__(0) + ");\n}\n", ""]);
+exports.push([module.i, "@font-face {\n  font-family: 'Ubuntu-Mono';\n  src:  url(" + __webpack_require__(8) + ") format('ttf'),\n        url(" + __webpack_require__(9) + ") format('ttf'),\n        url(" + __webpack_require__(10) + ") format('ttf');\n  font-weight: 600;\n  font-style: normal;\n}\n\n@font-face {\n  font-family: 'Comfortaa';\n  src:  url(" + __webpack_require__(11) + ") format('ttf'),\n        url(" + __webpack_require__(12) + ") format('ttf'),\n        url(" + __webpack_require__(13) + ") format('ttf');\n  font-weight: 600;\n  font-style: normal;\n}\n\n@font-face {\n  font-family: 'MyFont';\n  src:  url(" + __webpack_require__(14) + ") format('ttf');\n  font-weight: 600;\n  font-style: normal;\n}\n\n\n\n.hello {\n  color: red;\n  font-family: 'MyFont';\n  background: url(" + __webpack_require__(0) + ");\n}\n", ""]);
 
 // exports
 
@@ -17383,6 +17383,48 @@ function toComment(sourceMap) {
 /* 8 */
 /***/ (function(module, exports, __webpack_require__) {
 
+module.exports = __webpack_require__.p + "2759de5c01527bd9730b4d1838e6c938.ttf";
+
+/***/ }),
+/* 9 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "2aaaafd5fe853746266cad7eafcc871e.ttf";
+
+/***/ }),
+/* 10 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "7f0b42d1d6a4d3e646c558185f6711ea.ttf";
+
+/***/ }),
+/* 11 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "7695aeab83089e2ceacc05dfa159a17f.ttf";
+
+/***/ }),
+/* 12 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "866333be226453f3a24c2ff09b665702.ttf";
+
+/***/ }),
+/* 13 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "d350ce249a30596db0ed98838873a907.ttf";
+
+/***/ }),
+/* 14 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "d350ce249a30596db0ed98838873a907.ttf";
+
+/***/ }),
+/* 15 */
+/***/ (function(module, exports, __webpack_require__) {
+
 /*
 	MIT License http://www.opensource.org/licenses/mit-license.php
 	Author Tobias Koppers @sokra
@@ -17436,7 +17478,7 @@ var singleton = null;
 var	singletonCounter = 0;
 var	stylesInsertedAtTop = [];
 
-var	fixUrls = __webpack_require__(9);
+var	fixUrls = __webpack_require__(16);
 
 module.exports = function(list, options) {
 	if (typeof DEBUG !== "undefined" && DEBUG) {
@@ -17752,7 +17794,7 @@ function updateLink (link, options, obj) {
 
 
 /***/ }),
-/* 9 */
+/* 16 */
 /***/ (function(module, exports) {
 
 
